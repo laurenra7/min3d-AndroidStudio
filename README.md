@@ -1,9 +1,25 @@
 min3d-AndroidStudio
 ===================
 
-The min3d sample project Android Studio (v1.3.2+) and Gradle (v2.4+).
+This is the min3d framework and examples project ported to Android Studio (v1.3.2+) and Gradle (v2.4+).  It was originally built in 2010.  That source code is at https://code.google.com/p/min3d/.
 
-The code is written for OpenGL ES 1.0.
+The min3d framework simplifies writing OpenGl on Android.  Though it was written for OpenGL ES 1.0, it's a great introduction to OpenGL on Android and has lots of useful utilities and examples for the following:
+
+* Vertex index lists
+* Per-vertex colors
+* Vertex normals
+* Texture mapping
+* Light source (just the one, for now)
+* Camera class, with view frustrum settings
+* Object scale, euler rotation, and translation properties as expected
+* Object children that inherit parent's transform properties
+* Ability to render a subset of an object's list of faces
+* Triangle or point rendermodes (just the two, for now)
+* A few canned object primitives
+* Reading 3D objects from different file formats:
+  * WaveFront OBJ
+  * AutoDesk 3DS
+  * id Tech 2 MD2
 
 There are 2 modules in this project:
 
@@ -21,7 +37,7 @@ http://opensource.org/licenses/mit-license.php
 Acknowledgements
 ----------------
 
-Lee Felarca wrote the original source.
+Lee Felarca and Dennis Ippel wrote the original code.
 See http://zeropointnine.com/blog/a-3d-framework-for-android-min3d/
 
 Mario Viviani did the original port to Android Studio (version 0.4.4)
