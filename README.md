@@ -28,7 +28,7 @@ Mario Viviani did the original port to Android Studio (version 0.4.4)
 from which this project was created.
 See https://github.com/Mariuxtheone/min3dSampleProject-AndroidStudio
 
-Notes:
+Notes
 ------
 
 Before importing the project into Android Studio you may want to modify
